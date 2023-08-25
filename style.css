@@ -5,14 +5,14 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* body{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #acbaca;
-} */
-/* .clock {
+}
+.clock {
     position: relative;
     width: 450px;
     height: 550px;
@@ -27,8 +27,8 @@
     inset 15px 15px 10px rgba(255,255,255,0.75),
     -15px -15px 35px rgba(255,255,255,0.55),
     inset -2px -2px 15px rgba(0,0,0,0.2);
-} */
-/* .numbers {
+}
+.numbers {
     position: absolute;
     top: 30px;
     width: 390px;
@@ -41,8 +41,8 @@
     box-shadow: 7px 7px 22px #152b4a66,
     inset 7px 7px 7px rgba(255,255,255,0.75),
     -9px -9px 35px rgba(255,255,255,1);
-} */
-/* .numbers::before{
+}
+.numbers::before{
     content: '';
     position: absolute;
     width: 4px;
@@ -52,21 +52,21 @@
     box-shadow: #e91e63,
     0 0 0 3px #fff,
     0 0 5px 5px rgba(0,0,0,0.15);
-} */
-/* .numbers span{
+}
+.numbers span{
     position: absolute;
     inset: 15px;
     text-align: center;
     color: #fff;
     font-size: 1.25em;
     transform: rotate(calc(30deg * var(--i)));
-} */
-/* .numbers span b{
+}
+.numbers span b{
     font-weight: 400;
     display: inline-block;
     transform: rotate(calc(-30deg * var(--i)));
-} */
-/* .numbers .circle {
+}
+.numbers .circle {
     position: absolute;
     width: 280px;
     height: 280px;
@@ -76,8 +76,8 @@
     justify-content: center;
     align-items: flex-start;
     z-index: 10;
-} */
-/* .numbers .circle i{
+}
+.numbers .circle i{
     position: absolute;
     width: 6px;
     height: 50%;
@@ -85,8 +85,8 @@
     opacity: 0.75;
     transform-origin: bottom;
     transform: scaleY(0.5);
-} */
-/* .numbers #sec i{
+}
+.numbers #sec i{
     width: 2px;
 }
 .numbers #min i{
@@ -102,8 +102,8 @@
 .numbers .circle#hrs{
     width: 180px;
     height: 180px;
-} */
-/* .numbers .circle::before{
+}
+.numbers .circle::before{
     content: '';
     position: absolute;
     top: -6px;
@@ -115,8 +115,8 @@
     transform: translateX(-50%);
     box-shadow: 0 0 20px var(--clr),
     0 0 60px var(--clr);
-} */
-/* #time{
+}
+#time{
     position: absolute;
     bottom: 35px;
     display: flex;
@@ -128,28 +128,28 @@
     box-shadow: 7px 7px 22px #152b4a66,
     inset 7px 7px 7px rgba(255,255,255,0.75),
     -9px -9px 35px rgba(255,255,255,1);
-} */
-/* #time div{
+}
+#time div{
     position: relative;
     width: 60px;
     text-align: center;
     color: var(--clr);
     opacity: 0.75;
-} */
-/* #time div:last-child{
+}
+#time div:last-child{
     font-size: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 500;
-} */
-/* #time div:nth-child(1)::after,
+}
+#time div:nth-child(1)::after,
 #time div:nth-child(2)::after{
     content: ':';
     position: absolute;
     right: -4px;
-} */
-/* #time div:nth-child(2)::after{
+}
+#time div:nth-child(2)::after{
     animation: animate 1s steps(1) infinite;
 }
 @keyframes animate{
@@ -161,4 +161,4 @@
     {
         opacity: 0;
     }
-} */
+}
